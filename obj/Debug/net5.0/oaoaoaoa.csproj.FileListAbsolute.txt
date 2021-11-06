@@ -1,0 +1,16 @@
+/home/kikooos/Projects/sdad/oaoaoaoa/bin/Debug/net5.0/oaoaoaoa
+/home/kikooos/Projects/sdad/oaoaoaoa/bin/Debug/net5.0/oaoaoaoa.deps.json
+/home/kikooos/Projects/sdad/oaoaoaoa/bin/Debug/net5.0/oaoaoaoa.runtimeconfig.json
+/home/kikooos/Projects/sdad/oaoaoaoa/bin/Debug/net5.0/oaoaoaoa.runtimeconfig.dev.json
+/home/kikooos/Projects/sdad/oaoaoaoa/bin/Debug/net5.0/oaoaoaoa.dll
+/home/kikooos/Projects/sdad/oaoaoaoa/bin/Debug/net5.0/ref/oaoaoaoa.dll
+/home/kikooos/Projects/sdad/oaoaoaoa/bin/Debug/net5.0/oaoaoaoa.pdb
+/home/kikooos/Projects/sdad/oaoaoaoa/obj/Debug/net5.0/oaoaoaoa.csprojAssemblyReference.cache
+/home/kikooos/Projects/sdad/oaoaoaoa/obj/Debug/net5.0/oaoaoaoa.GeneratedMSBuildEditorConfig.editorconfig
+/home/kikooos/Projects/sdad/oaoaoaoa/obj/Debug/net5.0/oaoaoaoa.AssemblyInfoInputs.cache
+/home/kikooos/Projects/sdad/oaoaoaoa/obj/Debug/net5.0/oaoaoaoa.AssemblyInfo.cs
+/home/kikooos/Projects/sdad/oaoaoaoa/obj/Debug/net5.0/oaoaoaoa.csproj.CoreCompileInputs.cache
+/home/kikooos/Projects/sdad/oaoaoaoa/obj/Debug/net5.0/oaoaoaoa.dll
+/home/kikooos/Projects/sdad/oaoaoaoa/obj/Debug/net5.0/ref/oaoaoaoa.dll
+/home/kikooos/Projects/sdad/oaoaoaoa/obj/Debug/net5.0/oaoaoaoa.pdb
+/home/kikooos/Projects/sdad/oaoaoaoa/obj/Debug/net5.0/oaoaoaoa.genruntimeconfig.cache

@@ -1,0 +1,81 @@
+using System;
+using static System.Math;
+using System.Collections.Generic;
+using System.IO;
+
+namespace oaoaoaoa
+{
+    class Program
+    {
+        public interface ISolution
+        {
+            public List<double> koef { get; set; }
+            public bool Existanse();
+            public string Root();
+        }
+        public class Linear : ISolution
+        {
+            public List<double> koef { get; set; }
+            public Linear(double a, double b)
+            {
+                koef = new List<double>();
+                koef.Add(a);
+                koef.Add(b);
+            }
+            public bool Existanse()
+            {
+                if (koef[0] == 0 && koef[1] != 0)
+                    return false;
+                else
+                    return true;
+            }
+            public string Root()
+            {
+                string answer = "";
+                if (koef[0] == 0 && koef[1] == 0)
+                    answer = "infinity";
+                else if (Existanse() == false)
+                    answer = "no roots";
+                else
+                    answer += -koef[1] / koef[0];
+                return answer;
+            }
+        }
+        public class Square : ISolution
+        {
+            public List<double> koef { get; set; }
+            public Square(double a, double b, double c)
+            {
+                koef = new List<double>();
+                koef.Add(a);
+                koef.Add(b);
+                koef.Add(c);
+            }
+            public bool Existanse()
+            {
+                if (koef[0] != 0)
+                    return true;
+                else
+                    return false;
+            }
+            public string Root()
+            {
+                string answer = "";
+                if (Pow(koef[1], 2) - 4 * koef[0] * koef[2] > 0)
+                    answer = "two";
+                else if (Pow(koef[1], 2) - 4 * koef[0] * koef[2] == 0)
+                    answer = "one";
+                else
+                    answer = "no roots";
+                return answer;
+            }
+        }
+        static void Main(string[] args)
+        {
+            Linear obj1 = new Linear(3, 5);
+            System.Console.WriteLine(obj1.Root());
+            Square obj2 = new Square(0, 6, 4);
+            System.Console.WriteLine(obj2.Root());
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/kikooos/.dotnet/store/|arch|/|tfm|",
+      "/home/kikooos/.nuget/packages"
+    ]
+  }
+}
